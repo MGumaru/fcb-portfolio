@@ -1,0 +1,59 @@
+{	/*CSS Syntax*/
+	/*CSS Property: Value*/
+	font-family: "Roboto", sans-serif;
+}
+h1{
+	font-family: 'Righteous', cursive;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+}
+
+img{
+	height: 300px;
+	width: 500px;
+	border-radius: 10px;
+}
+
+#landing{
+	height: 80vh;/*vh(Viewport height) is a relative view of measurement*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.jumbotron{
+	background-color: transparent;
+}
+#gallery{
+	height: 75vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	border-radius: 6px;
+}
+
+ul{
+	list-style: none;
+	padding: 0;
+}
+
+h2{
+	color: #007bff;
+}
+
+.tools{
+	padding: 25px;
+	height: 200px;
+	margin: 20px;
+	width: 75%;
+	border: 5px solid #f2f2f2;
+	color: white;
+}
+
+html{
+	scroll-behavior: smooth;
+}
